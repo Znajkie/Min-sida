@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(159, 213, 195);
+}
+
+.container {
+    padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border: solid;
+  width: 36rem;
+  height: 40rem;
+}
+
+.img {
+    justify-content: center;
+  background-image: url(https://www.kamerabild.se/sites/kamerabild.se/files/styles/article_image/public/field/image/comedyphoto_Julian_Rad.jpg?itok=DQzvxIVL);
+  width: 40rem;
+  height: 20rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 1rem 1rem;
+  aspect-ratio: 1/1;
+}
+
+p {
+    max-width: 20rem;
+}
